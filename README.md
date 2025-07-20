@@ -1,5 +1,7 @@
 # :link: LangChain으로 자신이 듣고 싶은 과목에 대한 설명을 챗봇과 소통
 
+![Langchain Logo](./image/langchain-color.svg)
+
 ## :traffic_light: 문제 정의
 
 자신이 수강하고 싶은 강의 과목을 선정하고, 이에 해당하는 강의계획서를 읽었음에도, 내용이 많다 보니, 학생이 원하는 질의를 발췌하여 내용을 추출해내기가 힘들다.
