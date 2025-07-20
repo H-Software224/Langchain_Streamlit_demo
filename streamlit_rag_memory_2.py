@@ -98,7 +98,7 @@ def initialize_components(selected_model):
     return rag_chain
 
 # Streamlit UI
-st.header("헌법 Q&A 챗봇 💬 📚")
+st.header("졸업논문 강의계획서 Q&A 챗봇 💬 📚")
 option = st.selectbox("Select GPT Model", ("gpt-4o-mini", "gpt-3.5-turbo-0125"))
 rag_chain = initialize_components(option)
 chat_history = StreamlitChatMessageHistory(key="chat_messages")
@@ -114,7 +114,7 @@ conversational_rag_chain = RunnableWithMessageHistory(
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", 
-                                     "content": "헌법에 대해 무엇이든 물어보세요!"}]
+                                     "content": "졸업논문 강의계획서에 대해 무엇이든 물어보세요!"}]
 
 for msg in chat_history.messages:
     st.chat_message(msg.type).write(msg.content)
