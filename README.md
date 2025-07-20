@@ -1,6 +1,6 @@
 # :link: LangChain으로 자신이 듣고 싶은 과목에 대한 설명을 챗봇과 소통
 
-![Langchain Logo](./image/langchain-color.svg)
+![Langchain Logo](./image/LangChain_id12EQi2QW_0.png)
 
 ## :traffic_light: 문제 정의
 
