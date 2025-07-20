@@ -9,7 +9,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain.memory.chat_message_histories import StreamlitChatMessageHistory
-from langchain_core.messages import MessagesPlaceholder
+from langchain_core.prompts import MessagesPlaceholder
 
 
 __import__('pysqlite3')
